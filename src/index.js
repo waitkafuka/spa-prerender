@@ -2,7 +2,7 @@
  * @Author: zuokangsheng
  * @Date:   2021-11-08 11:52:34
  * @Last Modified by:   zuokangsheng
- * @Last Modified time: 2021-11-08 15:58:21
+ * @Last Modified time: 2021-11-08 16:53:16
  */
 const fs = require('fs');
 const path = require('path');
@@ -31,7 +31,7 @@ module.exports = function(options) {
     // Initialize is separate from the constructor for flexibility of integration with build systems.
     return prerenderer.initialize()
         .then(() => {
-            return prerenderer.renderRoutes(prerenderer._options.routes);
+            return prerenderer.renderRoutes(routes);
         })
         .then(async renderedRoutes => {
             // copy index.html to index-spa.html

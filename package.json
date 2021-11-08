@@ -15,6 +15,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jonschlinkert/arr-flatten.git"
+        "url": "git+https://github.com/waitkafuka/spa-prerender.git"
     }
 }

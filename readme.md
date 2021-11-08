@@ -2,7 +2,7 @@
 可以将vue或者其他框架生成的 `dist` 目录作为输入，然后生成预渲染之后的html页面。
 ### 使用示例
 ```javascript
-const render = require('spa-prerender');
+const render = require('@waitkafuka/spa-prerender');
 const path = require('path');
 
 render({

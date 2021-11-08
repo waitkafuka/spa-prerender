@@ -1,0 +1,16 @@
+{
+    "name": "spa-prerender",
+    "version": "1.0.0",
+    "description": "将vue等打包出来的dist静态文件，修改构建成为包含HTML内容的，SEO友好的静态页。基于@prerenderer/prerenderer进行了封装，以方便使用。",
+    "main": "./src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["预渲染"],
+    "author": "zuokangsheng",
+    "license": "ISC",
+    "dependencies": {
+        "@prerenderer/prerenderer": "0.7.2",
+        "@prerenderer/renderer-puppeteer": "0.2.0"
+    }
+}

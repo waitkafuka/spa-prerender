@@ -2,7 +2,7 @@
  * @Author: zuokangsheng
  * @Date:   2021-11-08 11:52:34
  * @Last Modified by:   zuokangsheng
- * @Last Modified time: 2021-11-12 10:30:35
+ * @Last Modified time: 2021-11-12 10:37:10
  */
  const fs = require('fs');
  const path = require('path');
@@ -42,7 +42,7 @@
              mkdirp.sync(outputDir);
              fs.writeFileSync(outputFile, htmlContent);
          });
-         console.log('render finished, shut down the renderer');
+         console.log('render finished, shutdown the renderer');
          await prerenderer.destroy();
          process.exit(0);
      } catch (error) {

@@ -24,3 +24,7 @@ return spaRenderer.render().then(() => {
 ```
 ### 其他参数
 其他可使用的参数请参考 https://github.com/JoshTheDerf/prerenderer 中文档的说明。
+
+### contact
+zhen0578@qq.com  
+wechat:zks_1927

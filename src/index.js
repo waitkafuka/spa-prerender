@@ -2,7 +2,7 @@
  * @Author: zuokangsheng
  * @Date:   2021-11-08 11:52:34
  * @Last Modified by:   zuokangsheng
- * @Last Modified time: 2021-11-13 12:44:05
+ * @Last Modified time: 2021-11-13 13:47:46
  */
 const fs = require('fs');
 const path = require('path');
@@ -62,7 +62,7 @@ class SpaRenderer {
             fs.writeFileSync(outputFile, htmlContent);
         });
 
-        console.log('files rendered and saved. render finished, shutdown the renderer');
+        console.log('page(s) rendered and saved. render finished, shutdown the renderer');
         await this._destroy();
     }
 

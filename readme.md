@@ -1,5 +1,6 @@
 ### 介绍
-可以将vue或者其他框架生成的 `dist` 目录作为输入，然后生成预渲染之后的html页面。
+可以将vue或者其他框架打包生成的 `dist` 目录作为输入，然后生成预渲染之后的html页面。生成的页面完全静态化，可以提升访问效率和SEO的友好。  
+需要注意的是谷歌爬虫可以执行同步js然后抓取渲染后的页面，但是百度仍然不支持，因此国内需要百度抓取的，可以使用此技术。
 ### 使用示例
 ```javascript
 const SpaRenderer = require('@waitkafuka/spa-prerender');

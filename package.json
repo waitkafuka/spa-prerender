@@ -1,12 +1,21 @@
 {
     "name": "@waitkafuka/spa-prerender",
-    "version": "1.0.7",
-    "description": "将vue等打包出来的dist静态文件，修改构建成为包含HTML内容的，SEO友好的静态页。基于@prerenderer/prerenderer进行了封装，以方便使用。",
+    "version": "1.0.8",
+    "description": "将vue等打包出来的dist静态文件，修改构建成为包含HTML内容的，SEO友好的静态页。基于@prerenderer/prerenderer进行了封装，以方便直接使用。",
     "main": "./src/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --fix"
     },
-    "keywords": ["预渲染"],
+    "keywords": [
+        "预渲染",
+        "vue",
+        "react",
+        "SPA",
+        "单页面",
+        "SEO",
+        "单页面SEO"
+    ],
     "author": "zuokangsheng",
     "license": "ISC",
     "dependencies": {
@@ -16,5 +25,8 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/waitkafuka/spa-prerender.git"
+    },
+    "devDependencies": {
+        "eslint": "8.2.0"
     }
 }

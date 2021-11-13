@@ -2,7 +2,7 @@
  * @Author: zuokangsheng
  * @Date:   2021-11-08 11:52:34
  * @Last Modified by:   zuokangsheng
- * @Last Modified time: 2021-11-13 12:39:45
+ * @Last Modified time: 2021-11-13 12:44:05
  */
 const fs = require('fs');
 const path = require('path');
@@ -10,6 +10,9 @@ const mkdirp = require('mkdirp');
 const PuppeteerRenderer = require('@prerenderer/renderer-puppeteer');
 const Prerenderer = require('@prerenderer/prerenderer');
 
+/**
+ * refactor the code, add retry function and optimize the destroy logic.change it to promise, so it can function well when retrying.otherwise, many server and puppeteer instances will pending and stop the program to exit when retrying happened.
+ */
 class SpaRenderer {
     constructor(options) {
         this._options = options || {};

@@ -1,6 +1,6 @@
 {
     "name": "@waitkafuka/spa-prerender",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "将vue等打包出来的dist静态文件，修改构建成为包含HTML内容的，SEO友好的静态页。基于@prerenderer/prerenderer进行了封装，以方便直接使用。",
     "main": "./src/index.js",
     "scripts": {

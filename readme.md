@@ -20,7 +20,7 @@ const options = {
   }
 };
 const spaRenderer = new SpaRenderer(options)
-return spaRenderer.render().then(() => {
+spaRenderer.render().then(() => {
   console.log('预渲染完毕。');
 });
 ```

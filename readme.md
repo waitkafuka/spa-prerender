@@ -8,6 +8,7 @@ const path = require('path');
 
 const options = {
   staticDir: path.join(__dirname, 'dist'),
+  basePath: 'base',//可选，当项目有basePath的时候设置。同router中的base和publicPath。确保staticDir/basePath/index.html存在
   routes: ['/',
     '/exam',
   ],
